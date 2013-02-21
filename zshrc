@@ -63,3 +63,7 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+# stop correcting git and sudo
+alias sudo='nocorrect sudo'                                             
+alias git='nocorrect git'
